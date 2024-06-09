@@ -6,15 +6,15 @@
 
 This project aims to develop an AI model to detect hate speech in the Social Media comment Section. The model is trained using a labeled dataset and employs various natural language processing (NLP) techniques  to identify and classify hate speech.
 
-## Dataset
+## Datasets
 
 1) The dataset used for this project contains YouTube comments labeled for hate speech. You can access the dataset from the following link:
 
-[Hate Speech Detection Dataset](https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data)
+     [Hate Speech Detection Dataset-1](https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data)
 
 2) Social media platforms have become prominent mediums for spreading hate speech, primarily through hateful textual content. This dataset includes hate speech sentences in English, featuring emoticons, emojis, hashtags, slang, and contractions, reflecting current trends. 
 
-Link: https://www.kaggle.com/datasets/waalbannyantudre/hate-speech-detection-curated-dataset?resource=download
+      [Hate Speech Detection Dataset-2](https://www.kaggle.com/datasets/waalbannyantudre/hate-speech-detection-curated-dataset?resource=download)
 
 ## Data Preprocessing
 
