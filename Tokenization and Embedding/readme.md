@@ -2,19 +2,6 @@
 
 This project focuses on detecting hate speech in text data using various natural language processing (NLP) techniques. The key tasks include tokenizing the text and generating embeddings using TF-IDF and Word2Vec. This README provides an overview of the project and instructions for running the code.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Tokenization](#tokenization)
-- [Embeddings](#embeddings)
-- [Requirements](#requirements)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-Hate speech detection is a crucial task in natural language processing, aimed at identifying and mitigating harmful content. This project implements text tokenization and various embedding techniques to preprocess and analyze text data.
 
 ## Tokenization
 
@@ -23,16 +10,11 @@ Tokenization is the process of splitting text into individual words or tokens. T
 ### Methods Used
 
 1. **NLTK Tokenization**: A popular NLP library that provides a simple and efficient way to tokenize text.
-2. **spaCy Tokenization**: An advanced NLP library offering fast and accurate tokenization.
 
-### Code Example
 
-```python
-import nltk
-nltk.download('punkt')  # Download necessary data for tokenization
-from nltk.tokenize import word_tokenize
+## Embedding Technique
 
-# Sample text
-text = "Hello, world! This is an example sentence."
-tokens = word_tokenize(text)
-print(tokens)
+In this project, we employed the Word2Vec embedding technique to convert textual data into numerical vectors that can be utilized by machine learning models. Word2Vec is a popular method that creates word embeddings by training a shallow neural network on a large corpus of text. It captures semantic relationships between words by placing similar words close to each other in the vector space.
+
+## Library Used
+To implement Word2Vec, we utilized the gensim library, which provides an efficient and easy-to-use interface for training and using Word2Vec models. gensim is a robust library for topic modeling and document similarity analysis, and it is widely used in the NLP community for its scalability and performance.
