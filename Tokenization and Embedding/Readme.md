@@ -1,7 +1,3 @@
-# Hate Speech Detection
-
-This project focuses on detecting hate speech in text data using various natural language processing (NLP) techniques. The key tasks include tokenizing the text and generating embeddings using TF-IDF and Word2Vec. This README provides an overview of the project and instructions for running the code.
-
 
 ## Tokenization
 
