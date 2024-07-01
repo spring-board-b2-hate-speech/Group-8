@@ -22,7 +22,9 @@ AUC-ROC
 
 ### Findings
 After extensive experimentation, the SVM model with TF-IDF embeddings provided the best performance. Here are the detailed results for the SVM model:
+
 SVM Performance with TF-IDF:
+
 Classification Report:
                precision    recall  f1-score   support
 
@@ -30,14 +32,21 @@ Classification Report:
            1       0.74      0.80      0.77       918
 
     accuracy                           0.76      1862
+    
    macro avg       0.77      0.76      0.76      1862
+   
 weighted avg       0.77      0.76      0.76      1862
 
-Accuracy: 0.7636949516648764
+
 AUC-ROC: 0.8351375272331156
+
 Confusion Matrix:
  [[686 258]
  [182 736]]
-F1 Score: 0.7698744769874477
-Precision: 0.7404426559356136
-Recall: 0.8017429193899782
+
+#### Accuracy: 0.7636949516648764 
+#### F1 Score: 0.7698744769874477
+
+#### Precision: 0.7404426559356136
+
+#### Recall: 0.8017429193899782
