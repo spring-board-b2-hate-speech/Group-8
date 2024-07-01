@@ -14,9 +14,13 @@ For each model, we performed hyperparameter tuning using techniques like Grid Se
 To evaluate the performance of the models, we used the following metrics:
 
 Accuracy
+
 Precision
+
 Recall
+
 F1 Score
+
 AUC-ROC
 
 
