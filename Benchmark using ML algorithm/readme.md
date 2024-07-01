@@ -1,17 +1,43 @@
-### This outlines the process of finding the benchmark score for our Project using ML algorithm.
+### Machine Learning Models
+The following machine learning models were evaluated:
 
-#### ML Algorithm Used
+#### Random Forest
+#### Logistic Regression
+#### Naive Bayes
+#### Support Vector Machine (SVM)
 
-Random Forest is an ensemble learning method that builds multiple decision trees during training and outputs the mode (classification) or mean prediction (regression) of the individual trees. It reduces overfitting by training each tree on a bootstrap sample and a random subset of features from the dataset. Random Forest is known for its high accuracy, ability to handle complex relationships in data, and capability to determine feature importance. It is widely used for both classification and regression tasks in machine learning due to its robustness and effectiveness in diverse applications.
 
-#### Conclusion:
+### Hyperparameter Tuning
+For each model, we performed hyperparameter tuning using techniques like Grid Search to find the optimal parameters. This process helps in improving the model performance by selecting the best set of hyperparameters.
 
-##### Best Parameters: {'max_depth': 20, 'max_features': 2, 'max_leaf_nodes': 20, 'n_estimators': 300}
+### Evaluation Metrics
+To evaluate the performance of the models, we used the following metrics:
 
-Accuracy: 0.715359828141783
-AUC-ROC: 0.7162944038255603
+Accuracy
+Precision
+Recall
+F1 Score
+AUC-ROC
+
+
+### Findings
+After extensive experimentation, the SVM model with TF-IDF embeddings provided the best performance. Here are the detailed results for the SVM model:
+SVM Performance with TF-IDF:
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.79      0.73      0.76       944
+           1       0.74      0.80      0.77       918
+
+    accuracy                           0.76      1862
+   macro avg       0.77      0.76      0.76      1862
+weighted avg       0.77      0.76      0.76      1862
+
+Accuracy: 0.7636949516648764
+AUC-ROC: 0.8351375272331156
 Confusion Matrix:
- [[613 331]
- [199 719]]
-
-This was the benchmark achived using the Random Forest algorithm. We will try various other ML algorithm along with their Hyper parameter tunning to get the highest accuracy score as a bench mark.
+ [[686 258]
+ [182 736]]
+F1 Score: 0.7698744769874477
+Precision: 0.7404426559356136
+Recall: 0.8017429193899782
