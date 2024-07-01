@@ -1,4 +1,4 @@
-### Machine Learning Models
+## Machine Learning Models
 The following machine learning models were evaluated:
 
 #### Random Forest
