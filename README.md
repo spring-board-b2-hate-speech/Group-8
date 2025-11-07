@@ -44,10 +44,6 @@ link: https://www.kaggle.com/datasets/waalbannyantudre/hate-speech-detection-cur
 
 * Shreyansh Kahate
 
-* Madhuri K
-
-* Nikitha S
-
 ## License:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
